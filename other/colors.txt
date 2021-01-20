@@ -1,0 +1,21 @@
+COLORS FOR DARKMODE
+
+
+
+Text
+on background:	#FFFFFF
+on surface:		#FFFFFF
+on primary col:	#000000
+on secondary:	#000000
+on error:		#000000
+
+Colors
+primary:		#BB86FC
+primary 2:		#3700B3
+secondary:		#03DAC6
+
+
+Backgrounds
+background:		#121212
+surface: 		#121212
+error:			#CF6679
