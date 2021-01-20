@@ -7,6 +7,7 @@
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <script src="js/bootstrap.bundle.js"></script>
 
     <!-- CSS Imports -->
@@ -17,26 +18,25 @@
 <body>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-1"></div>
-            <div class="col-10">
-                <h1>Baker Anton</h1>
-            </div>
-            <div class="col-1"></div>
-        </div>
+            <div class="col-md-3"></div>
+            <div class="col-12 col-md-6">
+                <!-- Title Row -->
+                <div class="row">
+                    <div class=""></div>
+                    <div class="col-12">
+                        <h1>Baker Anton</h1>
+                    </div>
+                    <div class=""></div>
+                </div>
 
-        
-        <!-- Subtitle Box -->
-        <div class="row">
-            <div class="col-1"></div>
-            <div class="col-10">
 
                 <!-- Subtitle Row -->
                 <div class="row">
-                    <div class="col-2"></div>
-                    <div class="col-8">
+                    <div class=""></div>
+                    <div class="col-12">
                         <h2>My Brownie Recipe</h2>
                     </div>
-                    <div class="col-2"></div>
+                    <div class=""></div>
                 </div>
             
                 <!-- Title Image Row -->
@@ -45,19 +45,31 @@
                         <img class="img-fluid" src="img/brownie.jpg" alt="Image of a brownie. Header Image">
                     </div>
                 </div>
-            
+
+                <!-- Recipe Description -->
+                <div class="row">
+                    <div class="col-1"></div>
+                    <div class="col-10">
+                        <p>
+                            This recipe will show you how to bake the perfect brownie in your kitchen
+                        </p>
+                    </div>
+                    <div class="col-1"></div>
+                </div>
+
             </div>
-            <div class="col-1"></div>
+            <div class="col-md-3"></div>
+
         </div>
 
-        <div class="row">
-            <div class="col-1"></div>
-            <div class="col-10">
-                
-            </div>
-            <div class="col-1"></div>
-        </div>
-    </div>
+
+
+        <!-- Step -->  
+        <div class="row"></div>
+
+
+    <!-- End Container Fluid -->
+    </div> 
     
 </body>
 </html>
