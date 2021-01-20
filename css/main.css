@@ -1,0 +1,16 @@
+* {
+    font-family: Roboto, sans-serif;
+    color: #FFFFFF;
+}
+
+body {
+    background-color: #121212;
+    opacity: 0.91;
+}
+
+
+h1 {
+    font-size: 12vw;
+    font-weight: 700;
+}
+
