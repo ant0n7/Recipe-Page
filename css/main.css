@@ -22,8 +22,14 @@ p {
 
 /* special classes */
 .bottom-line {
-    border-bottom: 1px solid #BB86FC;
+    border-bottom: 0.7em solid #BB86FC;
     margin-bottom: 2em;
+}
+h1.bottom-line {
+    margin-bottom: 0;
+}
+h2 {
+    margin-bottom: 10vw;
 }
 
 /* Normal width devices */
