@@ -1,5 +1,5 @@
 * {
-    font-family: Roboto, sans-serif;
+    font-family: "Yanone Kaffeesatz", Roboto, sans-serif;
     color: #FFFFFF;
 }
 
@@ -8,9 +8,56 @@ body {
     opacity: 0.91;
 }
 
-
-h1 {
-    font-size: 12vw;
-    font-weight: 700;
+img {
+    width: 100%;
 }
 
+p {
+    font-family: "Yanone Kaffeesatz", Roboto, sans-serif;
+
+    font-weight: 350;
+}
+
+
+
+/* special classes */
+.bottom-line {
+    border-bottom: 1px solid #BB86FC;
+    margin-bottom: 2em;
+}
+
+/* Normal width devices */
+@media (min-width: 768px) {
+    h1 {
+        font-size: 5vw;
+        font-weight: 500;
+        margin-top: 1em;
+    }
+
+    p {
+        font-size: 2vw;
+        text-align: justify;
+    }
+
+    .title-img img {
+        height: 10vw;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+}
+
+
+/* Mobile Devices */
+@media (max-width: 767px) {
+    h1 {
+        font-size: 20vw;
+        font-weight: 700;
+        margin-top: 0.3em;
+    }
+
+    p { 
+        font-size: 8vw;
+        text-align: justify;
+    }
+}
