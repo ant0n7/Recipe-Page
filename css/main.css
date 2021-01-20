@@ -31,6 +31,9 @@ h1.bottom-line {
 h2 {
     margin-bottom: 10vw;
 }
+p.bottom-line {
+    border-width: 0.4em;
+}
 
 /* Normal width devices */
 @media (min-width: 768px) {
