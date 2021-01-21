@@ -12,12 +12,16 @@ img {
     width: 100%;
 }
 
-p {
+p, ol, li {
     font-family: "Yanone Kaffeesatz", Roboto, sans-serif;
 
     font-weight: 350;
 }
 
+img {
+    image-rendering: optimizeSpeed;
+    image-rendering: crisp-edges;
+}
 
 
 /* special classes */
@@ -31,6 +35,12 @@ h1.bottom-line {
 
 p.bottom-line {
     border-width: 0.4em;
+}
+
+
+img.img-article {
+    border-radius: 1.2%;
+    transition: 3s;
 }
 
 /* Normal width devices */
@@ -50,7 +60,7 @@ p.bottom-line {
         margin-top: 1em;
     }
     
-    p {
+    p, ol, li {
         font-size: 2vw;
         text-align: justify;
     }
@@ -81,7 +91,7 @@ p.bottom-line {
         margin-top: 1em;
     }
 
-    p { 
+    p, ol, li { 
         font-size: 8vw;
         text-align: justify;
     }
