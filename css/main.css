@@ -28,9 +28,7 @@ p {
 h1.bottom-line {
     margin-bottom: 0;
 }
-h2 {
-    margin-bottom: 10vw;
-}
+
 p.bottom-line {
     border-width: 0.4em;
 }
@@ -43,6 +41,14 @@ p.bottom-line {
         margin-top: 1em;
     }
 
+    h2 {
+        margin-bottom: 10vw;
+    }
+
+    h3 {
+        font-size: 3vw;
+    }
+    
     p {
         font-size: 2vw;
         text-align: justify;
@@ -63,6 +69,14 @@ p.bottom-line {
         font-size: 20vw;
         font-weight: 700;
         margin-top: 0.3em;
+    }
+
+    h2 {
+        margin-bottom: 20vw;
+    }
+
+    h3 {
+        font-size: 15vw;
     }
 
     p { 
