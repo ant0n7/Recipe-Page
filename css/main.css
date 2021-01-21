@@ -23,7 +23,7 @@ p {
 /* special classes */
 .bottom-line {
     border-bottom: 0.7em solid #BB86FC;
-    margin-bottom: 2em;
+    margin-bottom: 0em;
 }
 h1.bottom-line {
     margin-bottom: 0;
@@ -47,6 +47,7 @@ p.bottom-line {
 
     h3 {
         font-size: 3vw;
+        margin-top: 1em;
     }
     
     p {
@@ -77,6 +78,7 @@ p.bottom-line {
 
     h3 {
         font-size: 15vw;
+        margin-top: 1em;
     }
 
     p { 
