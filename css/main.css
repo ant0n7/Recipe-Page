@@ -55,6 +55,9 @@ img.img-article {
     transition: 3s;
 }
 
+
+
+
 /* Normal width devices */
 @media (min-width: 768px) {
     h1 {
@@ -82,7 +85,18 @@ img.img-article {
         width: 100%;
         object-fit: cover;
     }
-    
+
+    footer p, footer p {
+        font-size: 1em;
+    }
+    footer * {
+        text-align: center;
+    }
+    .contact p {
+        margin-bottom: 0;
+        padding-left: 0em;
+        text-align: center;
+    }
 }
 
 
@@ -106,5 +120,18 @@ img.img-article {
     p, ol, li { 
         font-size: 8vw;
         text-align: justify;
+    }
+
+
+    footer p, footer p {
+        font-size: 1.5em;
+    }
+    footer * {
+        text-align: center;
+    }
+    .contact p {
+        margin-bottom: 0;
+        padding-left: 0em;
+        text-align: center;
     }
 }
