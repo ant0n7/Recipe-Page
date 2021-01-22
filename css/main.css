@@ -18,6 +18,18 @@ p, ol, li {
     font-weight: 350;
 }
 
+ul {
+    list-style: none;
+}
+ul li::before {
+    content: "\2022";
+    color: #BB86FC;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: 0em;
+}
+
 img {
     image-rendering: optimizeSpeed;
     image-rendering: crisp-edges;
