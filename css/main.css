@@ -36,6 +36,10 @@ img {
 }
 
 
+footer {
+    margin-top: 3em;
+}
+
 /* special classes */
 .bottom-line {
     border-bottom: 0.7em solid #BB86FC;
@@ -55,6 +59,20 @@ img.img-article {
     transition: 3s;
 }
 
+
+.download {
+    font-size: ;
+}
+.btn {
+    background-color: #BB86FC;
+    border: none;
+    color: #000000;
+    padding: 0.1em 1em;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #a663f8;
+}
 
 
 
@@ -97,6 +115,10 @@ img.img-article {
         padding-left: 0em;
         text-align: center;
     }
+
+    .btn {
+        font-size: 2vw;
+    }
 }
 
 
@@ -133,5 +155,9 @@ img.img-article {
         margin-bottom: 0;
         padding-left: 0em;
         text-align: center;
+    }
+
+    .btn {
+        font-size: 8vw;
     }
 }
